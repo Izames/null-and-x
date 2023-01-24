@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>null_and_x</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="обои.jpg" />
+    <None Remove="шапка.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="обои.jpg" />
+    <Resource Include="шапка.jpg" />
+  </ItemGroup>
+
+</Project>
